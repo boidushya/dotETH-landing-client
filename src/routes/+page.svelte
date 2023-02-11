@@ -66,7 +66,7 @@
 				<span class="text-zinc-50">Lorem ipsum</span> dolor sit amet consectetur adipiscing elit. Sed
 				euismod, nisl nec ultricies ultricies.
 			</p>
-			<div class="bg-pink-400 rounded-[3rem] px-8 pt-8 pb-0" slot="img">
+			<div class="bg-pink-400 rounded-[3rem] px-8 pt-8 pb-0 relative z-10" slot="img">
 				<img class="z-10 relative" src="./illustration-1.png" alt="Illustration" />
 			</div>
 		</Card>
@@ -74,7 +74,7 @@
 			<p class="text-2xl font-medium " slot="text">
 				<span class="text-zinc-50">Lorem ipsum</span> dolor sit amet consectetur adipiscing elit.
 			</p>
-			<div class="bg-green-400 rounded-[2rem] z-10" slot="img">
+			<div class="bg-green-400 rounded-[2rem] z-10 relative" slot="img">
 				<img class="-mt-8" src="./illustration-2.png" alt="Illustration" />
 			</div>
 		</Card>
@@ -102,7 +102,7 @@
 			<p class="text-2xl font-medium " slot="text">
 				<span class="text-zinc-50">Lorem ipsum</span> dolor sit amet consectetur adipiscing elit.
 			</p>
-			<div class="bg-purple-400 rounded-[2rem] z-10" slot="img">
+			<div class="bg-purple-400 rounded-[2rem] z-10 relative" slot="img">
 				<img class="-mt-8" src="./illustration-3.png" alt="Illustration" />
 			</div>
 		</Card>
