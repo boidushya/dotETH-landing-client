@@ -1,6 +1,6 @@
 <script>
 	export let color = 'var(--color-orange)';
-	export let size = 'col-span-2';
+	export let size = 'lg:col-span-2';
 </script>
 
 <div class="space-y-4 card h-[26rem] card-hidden {size}" style="--color: {color};">
