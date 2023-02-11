@@ -66,8 +66,8 @@
 				<span class="text-zinc-50">Lorem ipsum</span> dolor sit amet consectetur adipiscing elit. Sed
 				euismod, nisl nec ultricies ultricies.
 			</p>
-			<div class="bg-pink-400 rounded-[3rem] px-8 pb-0 mt-4" slot="img">
-				<img class="-mt-5 z-10 relative" src="./illustration-1.png" alt="Illustration" />
+			<div class="bg-pink-400 rounded-[3rem] px-8 pt-8 pb-0" slot="img">
+				<img class="z-10 relative" src="./illustration-1.png" alt="Illustration" />
 			</div>
 		</Card>
 		<Card color="var(--color-green)">
@@ -78,7 +78,7 @@
 				<img class="-mt-8" src="./illustration-2.png" alt="Illustration" />
 			</div>
 		</Card>
-		<Card color="var(--color-violet)" size="lg:col-span-3">
+		<Card color="var(--color-blue)" size="lg:col-span-3">
 			<div
 				class="grid place-items-center absolute inset-0 text-center max-w-[15rem] mx-auto"
 				slot="text"
@@ -88,7 +88,7 @@
 				</p>
 			</div>
 		</Card>
-		<Card color="var(--color-red)" size="lg:col-span-3">
+		<Card color="var(--color-amber)" size="lg:col-span-3">
 			<div
 				class="grid place-items-center absolute inset-0 text-center max-w-[15rem] mx-auto"
 				slot="text"
